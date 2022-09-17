@@ -34,8 +34,8 @@ export const englishData = [
       'Homemade brioche bread with sourdough, BIO mature Black Angus* beef, cheddar, egg, iceberg, Tartar sauce, caramelized onions with red wine. The meat is well done. If you want a different degree of baking, note it in the comments to the order.',
     denText:
       'Homemade brioche bread with sourdough, BIO mature Black Angus* beef, cheddar, egg, iceberg, Tartar sauce, caramelized onions with red wine. The meat is well done. If you want a different degree of baking, note it in the comments to the order.',
-    bulPrice: '',
-    denPrice: '',
+    bulPrice: 'UK Toll',
+    denPrice: 'UK Toll',
     image: 'https://mrpizza.alphavision.bg/files/images/759/fit_1702_1136.jpg',
   },
   {
@@ -46,8 +46,8 @@ export const englishData = [
       'Unique Italian dough of your choice, Gentle symphony of cheeses (Ricotta, blue cheese, mozzarella, cheddar, mature goat cheese), Cherry tomatoes, white oregano and fresh garden basil',
     denText:
       'Unique Italian dough of your choice, Gentle symphony of cheeses (Ricotta, blue cheese, mozzarella, cheddar, mature goat cheese), Cherry tomatoes, white oregano and fresh garden basil',
-    bulPrice: '',
-    denPrice: '',
+    bulPrice: 'UK Toll',
+    denPrice: 'UK Toll',
     image: 'https://mrpizza.alphavision.bg/files/images/697/fit_1702_1136.jpg',
   },
 ]

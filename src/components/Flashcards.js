@@ -12,7 +12,7 @@ const Flashcards = ({ flashcards, english, removeFlashcard }) => {
               key={flashcard.id}
               {...flashcard}
               removeFlashcard={removeFlashcard}
-              enlish={english}
+              english={english}
             />
           )
         })}

@@ -11,6 +11,7 @@ const Flashcard = ({
   denText,
   removeFlashcard,
   denPrice,
+  english,
 }) => {
   const [translate, setTranslate] = useState(true)
   return (
@@ -19,19 +20,18 @@ const Flashcard = ({
       <footer>
         <div className='flashcard-info'>
           <h4> {translate ? bulTitle : denTitle}</h4>
+          {/* Nedenfor kunne det være fedt med noget dynamisk. Se data struktur */}
           <h4 className='flashcard-price'>{translate ? bulPrice : denPrice}</h4>
         </div>
         <p>
           {translate ? bulText : denText}
           <button
-            style={{
-              fontWeight: 'bolder',
-            }}
+            className='text-button'
             onClick={() => {
               setTranslate(!translate)
             }}
           >
-            Translate
+            {english ? '' : 'Translate'}
           </button>
         </p>
         <button className='delete-btn' onClick={() => removeFlashcard(id)}>
